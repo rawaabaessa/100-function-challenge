@@ -326,7 +326,6 @@ function my_implode($seprator="",array $arr){
 
 function my_str_pad(string $str,int $length,$char=" ",$padflag=STR_PAD_RIGHT){
     $fullpad = "";
-    // $remainLen2 = $length - my_strlen($str);
     if($length <= 0 || $length < my_strlen($str) ||  $length == my_strlen($str) ){
         return $str;
     }
